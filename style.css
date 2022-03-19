@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -9,6 +11,7 @@ body{
   justify-content: center;
   align-items: center;
   background: rgb(221, 220, 220);
+  font-family: 'Lexend Deca';
 }
 
 .header{
@@ -31,16 +34,17 @@ body{
   justify-content: flex-start;
   display: block;
   width: 150px;
-  margin-left: 10px;
+  margin-left: 20px;
   color: #FFFFFF;
+  font-weight: 400;
 }
 
 .nav__header h2{
   display: block;
   justify-content: flex-end;
   width: 100px;
-  margin-right: 10px;
-  color: #FFFFFF;
+  color: #FFFFFf;
+  font-weight: 400;
 }
 
 .header__search{
@@ -49,7 +53,7 @@ body{
   border-radius: 5px;
   display: block;
   height: 40px;
-  margin: 42px auto 58px auto;
+  margin: 42px auto 38px auto;
   width: 360px;
   color: #FFFFFF;
   opacity: 0.5;
@@ -58,6 +62,7 @@ body{
 input::placeholder{
   color:#ffffff;
   padding-left: 40px;
+  font-family: Inter;
 }
 
 .fa-search{
@@ -65,7 +70,7 @@ input::placeholder{
   opacity: .7;
   position:absolute;
   left: 40px;
-  top: 110px;
+  top: 114px;
 }
 
 .principal{
@@ -91,6 +96,11 @@ input::placeholder{
   padding: 5px 10px 10px 10px;
 }
 
+.principal__header date{
+  font-size: 12px;
+  color: #717171;
+}
+
 .principal__header i{
   color:#574AE8
 }
@@ -98,9 +108,13 @@ input::placeholder{
 .principal__card h2{
   padding-bottom: 10px;
   padding-left: 10px;
+  font-size: 18px;
+  color: #1A202C;
 }
 
 .principal__card p{
   text-align: justify;
   padding: 0 10px 10px 10px;
+  font-size: 14px;
+  color: #717171;
 }
