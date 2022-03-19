@@ -12,6 +12,7 @@ body{
   align-items: center;
   background: rgb(221, 220, 220);
   font-family: 'Lexend Deca';
+  color: #fff;
 }
 
 .header{
@@ -30,7 +31,7 @@ body{
   width: 412px;
 }
 
-.nav__header h1{
+.nav__header-title{
   justify-content: flex-start;
   display: block;
   width: 150px;
@@ -39,12 +40,12 @@ body{
   font-weight: 400;
 }
 
-.nav__header h2{
+.nav__header-blog{
   display: block;
-  justify-content: flex-end;
   width: 100px;
-  color: #FFFFFf;
+  font-size: 18px;
   font-weight: 400;
+  color: #fff;
 }
 
 .header__search{
@@ -117,4 +118,74 @@ input::placeholder{
   padding: 0 10px 10px 10px;
   font-size: 14px;
   color: #717171;
+}
+
+@media screen and (min-width: 1440px){
+  body{
+    width: 1520px;
+  }
+
+  .header{
+    width: 1520px;
+    height: 250px;
+  }
+
+  .nav__header{
+    width: 1520px;
+    padding-top: 41px;
+  }
+
+  .nav__header-title{
+    margin-left: 250px;
+    font-size: 24px;
+  }
+
+  .nav__header-blog{
+    margin-right: 230px;
+    font-size: 24px;
+  }
+
+  .header__search{
+    width: 1000px;
+    height: 60px;
+  }
+
+  .fa-search{
+    left:275px;
+    top:133px;
+  }
+
+  input::placeholder{
+    font-size: 18px;
+  }
+
+  .principal{
+    width: 1520px;
+    margin-top: 80px;
+  }
+
+  .principal__card{
+    width: 1000px;
+    height: 215px;
+    margin: 20px 230px 50px 250px;
+  }
+
+  .principal__header date{
+    font-size: 16px;
+    padding: 23px 0px 0px 24px;
+  }
+
+  .principal__header i{
+    padding: 23px 26px 0px 0px;
+  }
+
+  .principal__card h2{
+    padding: 10px 0px 0px 28px;
+    font-size: 26px;
+  }
+
+  .principal__card p{
+    padding: 17px 25px 0px 28px;
+    font-size: 18px;
+  }
 }
